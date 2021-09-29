@@ -69,7 +69,9 @@ ul {
     margin: 0;
     padding-left: 0;
 }
-
+li {
+    display: block;
+}
 span {
     color: #000000;
 }
@@ -467,6 +469,10 @@ p {
     height: 92px;
     border-radius: 4px;
     border: 1px solid #afb1b8;
+}
+.clients-list:hover,
+.clients-list:focus {
+    border: 1px solid #2196f3;
 }
 .clients-icon {
     display: flex;
