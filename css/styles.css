@@ -167,11 +167,21 @@ p {
 
 /* ------------ШАПКА------------ */
 .hero {
-    background-color: #2f303a;
-    left: 0px;
-    top: 80px;
+    max-width: 1600px;
+    height: 600px;
+    background-image: linear-gradient(
+            to right,
+            rgba(47, 48, 58, 0.4),
+            rgba(47, 48, 58, 0.4)
+        ),
+        url(../img/hero.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
     padding: 200px 0;
     text-align: center;
+    margin-right: auto;
+    margin-left: auto;
     margin-bottom: 94px;
 }
 
