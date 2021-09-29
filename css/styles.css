@@ -456,7 +456,10 @@ p {
     padding-bottom: 94px;
     border-radius: 10px #000;
 }
-
+.clients-icon:hover,
+.clients-icon:focus {
+    fill: var(--active-color);
+}
 .clients-list {
     margin: 0;
     padding: 0;
@@ -469,6 +472,7 @@ p {
     display: flex;
     justify-content: center;
     padding-top: 12px;
+    fill: #afb1b8;
 }
 /*-----------ПОДВАЛ----------- */
 footer .container {
