@@ -432,6 +432,7 @@ p {
     flex-basis: calc (100% / 3 - 30px);
     margin-top: 25px;
     border-top: none;
+    cursor: pointer;
 }
 .icon:hover {
     box-shadow: 0px 1px 1px rgba(0, 0, 0, 0.12), 0px 4px 4px rgba(0, 0, 0, 0.06),
@@ -487,6 +488,7 @@ p {
     height: 92px;
     border-radius: 4px;
     border: 1px solid #afb1b8;
+    cursor: pointer;
 }
 .clients-list:hover,
 .clients-list:focus {
