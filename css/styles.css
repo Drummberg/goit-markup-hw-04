@@ -141,7 +141,7 @@ p {
     height: 12px;
     margin-right: 8px;
     margin-top: 2px;
-    background-image: url(../img/symbol-defs.svg#icon-envelope-hover);
+    background-image: url(../img/envelopehover.svg);
     background-position: center;
     background-repeat: no-repeat;
     background-size: contain;
@@ -398,11 +398,29 @@ p {
     text-align: center;
     letter-spacing: 0.03em;
     color: var(--secondary-title-color);
+    margin-bottom: 30px;
 }
 .card-info {
     padding-top: 30px;
 }
-
+.social-list {
+    display: flex;
+    justify-content: center;
+}
+.social-item {
+    width: 44px;
+    height: 44px;
+}
+.social-item + .social-item {
+    margin-left: 10px;
+}
+.social-link {
+    width: 44px;
+    height: 44px;
+    display: block;
+    border-radius: 50%;
+    background-color: #000;
+}
 /* ---------------ГАЛЕРЕЯ---------- */
 .gallery {
     display: flex;
