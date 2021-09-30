@@ -22,7 +22,6 @@ main {
     font-family: 'Raleway', sans-serif;
     display: flex;
     align-items: center;
-    margin-top: 24px;
     margin-bottom: 25px;
     margin-right: 93px;
     font-style: normal;
@@ -33,6 +32,20 @@ main {
     color: var(--active-color);
 }
 
+.logo-nav {
+    font-family: 'Raleway', sans-serif;
+    display: flex;
+    align-items: center;
+    margin-top: 24px;
+    margin-bottom: 25px;
+    margin-right: 93px;
+    font-style: normal;
+    font-weight: 700;
+    font-size: 26px;
+    line-height: 1.2;
+    letter-spacing: 0.03em;
+    color: var(--active-color);
+}
 .logo-color-white {
     color: var(--btn-color);
 }
@@ -130,7 +143,7 @@ p {
     fill: currentColor;
 }
 .links-icon {
-    margin-right: 8px;
+    margin-right: 10px;
     margin-top: 2px;
 }
 
@@ -486,9 +499,11 @@ footer .container {
     background-color: #2f303a;
 }
 .footer-left-box {
-    padding-top: 60px;
-    padding-bottom: 60px;
+    display: inline-block;
+    margin-top: 56px;
+    margin-bottom: 64px;
     letter-spacing: 0.03em;
+    width: 231px;
 }
 .footer-text {
     width: 231px;
@@ -535,4 +550,48 @@ footer .container {
 }
 .color-contacts {
     font-style: normal;
+}
+
+.footer-social-box {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.footer-social-title {
+    font-family: inherit;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 14px;
+    line-height: 16px;
+    letter-spacing: 0.03em;
+    text-transform: uppercase;
+    display: flex;
+    color: #ffffff;
+    padding-bottom: 20px;
+}
+.footer-social-link {
+    width: 44px;
+    height: 44px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border-radius: 50%;
+    background-color: rgba(255, 255, 255, 0.1);
+    fill: #fff;
+}
+.footer-social-link:hover,
+.footer-social-link:focus {
+    background-color: var(--active-color);
+}
+.social-section {
+    display: flex;
+    justify-content: center;
+}
+.social-container {
+    width: 206px;
+    margin-left: 70px;
+    margin-top: 68px;
+}
+.wrap-footer-container {
+    display: flex;
 }
