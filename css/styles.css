@@ -106,6 +106,9 @@ p {
     display: flex;
 }
 /* ---------ВЕРХНЯЯ ЛИНИЯ---------- */
+.contacts-link {
+    color: var(--secondary-title-color);
+}
 .link {
     display: flex;
     font-weight: 500;
@@ -124,48 +127,15 @@ p {
     letter-spacing: 0.02em;
     padding: 32px 0;
     color: var(--secondary-title-color);
+    fill: currentColor;
 }
-.links2 {
-    display: flex;
-    font-weight: 500;
-    font-size: 14px;
-    line-height: 16px;
-    letter-spacing: 0.02em;
-    padding: 32px 0;
-    color: var(--secondary-title-color);
+.links-icon {
+    margin-right: 8px;
+    margin-top: 2px;
 }
 
-.links1::before {
-    content: '';
-    width: 16px;
-    height: 12px;
-    margin-right: 8px;
-    margin-top: 2px;
-    background-image: url(../img/envelopehover.svg);
-    background-position: center;
-    background-repeat: no-repeat;
-    background-size: contain;
-    fill: currentColor;
-}
 .links1:hover,
 .links1:focus {
-    color: var(--active-color);
-}
-.links2::before {
-    content: '';
-    width: 16px;
-    height: 12px;
-    margin-right: 8px;
-    margin-top: 2px;
-    background-image: url(../img/smartphone.svg);
-    background-position: center;
-    background-repeat: no-repeat;
-    background-size: contain;
-    fill: currentColor;
-    color: var(--active-color);
-}
-.links2:hover,
-.links2:focus {
     color: var(--active-color);
 }
 
