@@ -8,7 +8,6 @@
 
 body,
 main {
-    min-width: 1600px;
     margin: auto;
     background-color: var(--btn-color);
     color: var(--secondary-title-color);
@@ -229,7 +228,7 @@ p {
     border-radius: 4px;
     cursor: pointer;
     border: none;
-    padding: 10px;
+    padding: 10px 32px;
     text-align: center;
 }
 .hero-btnn:hover,
@@ -392,6 +391,9 @@ p {
     width: 44px;
     height: 44px;
 }
+.social-item:hover {
+    fill: white;
+}
 .social-item + .social-item {
     margin-left: 10px;
     margin-bottom: 30px;
@@ -403,9 +405,12 @@ p {
     align-items: center;
     justify-content: center;
     border-radius: 50%;
+    color: white;
 }
 .social-icon {
-    fill: #afb1b8;
+    padding: 12px;
+    color: #afb1b8;
+    fill: currentColor;
 }
 .social-icon:hover,
 .social-icon:focus {
@@ -413,6 +418,7 @@ p {
 }
 .social-link:hover,
 .social-link:focus {
+    color: white;
     background-color: var(--active-color);
 }
 /* ---------------ГАЛЕРЕЯ---------- */
@@ -491,7 +497,7 @@ p {
 .clients-icon {
     display: flex;
     justify-content: center;
-    padding-top: 12px;
+    padding: 16px 32px;
     fill: #afb1b8;
 }
 /*-----------ПОДВАЛ----------- */
