@@ -133,6 +133,7 @@ p {
 
 .links1 {
     display: flex;
+    align-items: center;
     font-weight: 500;
     font-size: 14px;
     line-height: 16px;
@@ -142,8 +143,7 @@ p {
     fill: currentColor;
 }
 .links-icon {
-    margin-right: 10px;
-    margin-top: 2px;
+    margin: 0 10px;
 }
 
 .links1:hover,
